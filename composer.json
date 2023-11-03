@@ -7,6 +7,10 @@
         "php": ">=8.0.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "doctrine/annotations": "^1.14",
+        "doctrine/doctrine-bundle": "^2.10",
+        "doctrine/doctrine-migrations-bundle": "^3.2",
+        "doctrine/orm": "^2.16",
         "knplabs/knp-time-bundle": "^2.1",
         "symfony/asset": "6.1.*",
         "symfony/console": "6.1.*",
@@ -77,6 +81,7 @@
     },
     "require-dev": {
         "symfony/debug-bundle": "6.1.*",
+        "symfony/maker-bundle": "^1.50",
         "symfony/stopwatch": "6.1.*",
         "symfony/web-profiler-bundle": "6.1.*"
     }
